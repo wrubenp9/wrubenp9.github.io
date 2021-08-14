@@ -1,0 +1,107 @@
+#index {
+    background-color: #310E63;
+}
+
+#index .body-center {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*     Index
+==========================*/
+#index .profile-card {
+    width: 400px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#index .header-card {
+    padding: 60px 40px;
+}
+
+#index .profile-card .header-card .picture {
+    display: inline-block;
+    padding: 6px;
+    background: linear-gradient(130deg, #696eff, #e81cff);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient {
+    25% {
+        background-position: left bottom;
+    }
+    50% {
+        background-position: right bottom;
+    }
+    75% {
+        background-position: right top;
+    }
+    100% {
+        background-position: left top;
+    }
+}
+
+#index .profile-card .header-card .picture img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#index .profile-card .header-card .name {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#index .profile-card .header-card .desc {
+    font-size: 12px;
+    color: #b9a5c6;
+}
+
+#index .profile-card .header-card .sm {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    
+}
+
+#index .profile-card .header-card .sm a {
+    color: white;
+    text-decoration: none;
+    width: 22px;
+    margin: 0 10px;
+    font-size: 22px;
+    /*Mudar o tamanho do ícone*/
+    line-height: 22px;
+}
+
+#index .profile-card .header-card .sm a:hover {
+    color: #b9a5c6;
+    text-decoration: none;
+    font-size: 28px;
+    /*Mudar o tamanho do ícone*/
+    line-height: auto;
+    transition: fill 0.4s;
+}
+
+#index .profile-card .header-card .acess {
+    color: white;
+    font-size: 14px;
+    padding: 2px 15px;
+    border: 2px solid #b9a5c6;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+    
+#index .profile-card .header-card .acess:hover {
+    font-size: 16px;
+    padding: 4px 17px;
+    border: 2px solid #696eff;
+}

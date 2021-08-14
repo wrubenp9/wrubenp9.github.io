@@ -1,0 +1,118 @@
+html, body {
+    background-color: #e6e5e6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#sobre {
+    width: 100%;
+}
+
+#navegacao {
+    position: fixed;
+    width: 80px;
+    height: 100vh;
+    background-color: #310E63;
+}
+
+#conteudo {
+    width: 100%;
+    height: 100%;
+    padding-left: 80px;
+}
+
+#conteudo .box-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 50px;
+}
+
+/* Divisão
+=========================== */
+
+.divisao-1 {
+    width: 100%;
+    height: 1px;
+    background: #b9a5c6;
+}
+
+.divisao-2 {
+    width: 85%;
+    height: 1px;
+    background: #b9a5c6;
+}
+
+/*      Navegação
+=========================== */
+
+/* #navegacao {
+    display: flex;
+    align-items: center;
+}
+
+#navegacao .box-nav .item-nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#navegacao .box-nav .item-nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#navegacao .box-nav .item-nav span {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+} */
+
+#navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navegacao .box-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#navegacao .box-nav .item-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#navegacao .box-nav .item-nav a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navegacao .box-nav .item-nav .icon-nav{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: #b9a5c6
+}
+#navegacao .box-nav .item-nav .icon-nav:hover{
+    color: white;
+}
+
+.box-nav .item-nav .icon-nav span{
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#navegacao .sep {
+    width: 50px;
+    height: 1px;
+    background-color: #5e4484;
+}

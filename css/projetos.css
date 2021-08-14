@@ -1,0 +1,13 @@
+#conteudo .box-conteudo {
+    justify-content: center;
+}
+
+#projeto #conteudo .projeto{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
